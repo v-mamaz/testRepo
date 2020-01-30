@@ -4,7 +4,7 @@
       "docset_name": "BugfixDocset",
       "build_source_folder": "BugfixDocset",
       "build_output_subfolder": "BugfixDocset",
-      "locale": "zh-cn",
+      "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
@@ -24,9 +24,18 @@
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft.zh-cn",
+      "url": "https://github.com/Microsoft/templates.docs.msft",
       "branch": "master",
       "branch_mapping": {}
+    },
+    {
+      "path_to_root": "_repo.en-us",
+      "url": "https://github.com/v-mamaz/testRepo",
+      "branch": "live",
+      "branch_mapping": {
+        "live": "live",
+        "master": "master"
+      }
     }
   ],
   "branch_target_mapping": {},
